@@ -1,0 +1,1 @@
+new Promise((e=>{setTimeout((()=>{console.log(123),e()}),1e3)}))();

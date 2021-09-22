@@ -1,0 +1,23 @@
+#box1 {
+    background: url('../imgs//login.jpeg');
+    width: 400px;
+    height: 400px;
+}
+
+#box2 {
+    background: url('../imgs/logo1.png');
+    width: 400px;
+    height: 400px;
+}
+
+body {
+    font-family: "webfont" !important;
+    /* background: red; */
+    /* color: #fff; */
+}
+
+@font-face {
+    font-family: 'webfont';
+    font-display: swap;
+    src: url('../midia/webfont.woff2') format('woff2')
+}

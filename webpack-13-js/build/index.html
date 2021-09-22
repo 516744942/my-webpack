@@ -1,0 +1,159 @@
+Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module build failed (from ../node_modules/babel-loader/li  b/index.js):
+  SyntaxError: /Users/wanghefeng/Desktop/project/my-webpack  /webpack-13-js/src/index.html: Unexpected token (1:0)
+  
+  > 1 | <!  [39mDOCTYPE html>
+      | ^
+    2 | <html lang=  [39m"en"><head><script defer src="js/built.js"></script></head>
+    3 |
+    4 | <head>  [0m
+      at Parser._raise (/Users/wanghefeng/Desktop/project/m  y-webpack/node_modules/@babel/parser/lib/index.js:816:17)      at Parser.raiseWithData (/Users/wanghefeng/Desktop/pr  oject/my-webpack/node_modules/@babel/parser/lib/index.js:  809:17)
+      at Parser.raise (/Users/wanghefeng/Desktop/project/my  -webpack/node_modules/@babel/parser/lib/index.js:770:17)
+      at Parser.unexpected (/Users/wanghefeng/Desktop/proje  ct/my-webpack/node_modules/@babel/parser/lib/index.js:989  3:16)
+      at Parser.parseExprAtom (/Users/wanghefeng/Desktop/pr  oject/my-webpack/node_modules/@babel/parser/lib/index.js:  11307:20)
+      at Parser.parseExprSubscripts (/Users/wanghefeng/Desk  top/project/my-webpack/node_modules/@babel/parser/lib/ind  ex.js:10881:23)
+      at Parser.parseUpdate (/Users/wanghefeng/Desktop/proj  ect/my-webpack/node_modules/@babel/parser/lib/index.js:10  861:21)
+      at Parser.parseMaybeUnary (/Users/wanghefeng/Desktop/  project/my-webpack/node_modules/@babel/parser/lib/index.j  s:10839:23)
+      at Parser.parseExprOps (/Users/wanghefeng/Desktop/pro  ject/my-webpack/node_modules/@babel/parser/lib/index.js:1  0696:23)
+      at Parser.parseMaybeConditional (/Users/wanghefeng/De  sktop/project/my-webpack/node_modules/@babel/parser/lib/i  ndex.js:10670:23)
+  ModuleBuildError: Module build failed (from ../node_modul  es/babel-loader/lib/index.js):
+  SyntaxError: /Users/wanghefeng/Desktop/project/my-webpack  /webpack-13-js/src/index.html: Unexpected token (1:0)
+  
+  > 1 | <!  [39mDOCTYPE html>
+      | ^
+    2 | <html lang=  [39m"en">
+    3 |
+    4 | <head>  [0m
+      at Parser._raise (/Users/wanghefeng/Desktop/project/m  y-webpack/node_modules/@babel/parser/lib/index.js:816:17)      at Parser.raiseWithData (/Users/wanghefeng/Desktop/pr  oject/my-webpack/node_modules/@babel/parser/lib/index.js:  809:17)
+      at Parser.raise (/Users/wanghefeng/Desktop/project/my  -webpack/node_modules/@babel/parser/lib/index.js:770:17)
+      at Parser.unexpected (/Users/wanghefeng/Desktop/proje  ct/my-webpack/node_modules/@babel/parser/lib/index.js:989  3:16)
+      at Parser.parseExprAtom (/Users/wanghefeng/Desktop/pr  oject/my-webpack/node_modules/@babel/parser/lib/index.js:  11307:20)
+      at Parser.parseExprSubscripts (/Users/wanghefeng/Desk  top/project/my-webpack/node_modules/@babel/parser/lib/ind  ex.js:10881:23)
+      at Parser.parseUpdate (/Users/wanghefeng/Desktop/proj  ect/my-webpack/node_modules/@babel/parser/lib/index.js:10  861:21)
+      at Parser.parseMaybeUnary (/Users/wanghefeng/Desktop/  project/my-webpack/node_modules/@babel/parser/lib/index.j  s:10839:23)
+      at Parser.parseExprOps (/Users/wanghefeng/Desktop/pro  ject/my-webpack/node_modules/@babel/parser/lib/index.js:1  0696:23)
+      at Parser.parseMaybeConditional (/Users/wanghefeng/De  sktop/project/my-webpack/node_modules/@babel/parser/lib/i  ndex.js:10670:23)
+      at processResult (/Users/wanghefeng/Desktop/project/m  y-webpack/node_modules/webpack/lib/NormalModule.js:701:19  )
+      at /Users/wanghefeng/Desktop/project/my-webpack/node_  modules/webpack/lib/NormalModule.js:807:5
+      at /Users/wanghefeng/Desktop/project/my-webpack/node_  modules/loader-runner/lib/LoaderRunner.js:399:11
+      at /Users/wanghefeng/Desktop/project/my-webpack/node_  modules/loader-runner/lib/LoaderRunner.js:251:18
+      at context.callback (/Users/wanghefeng/Desktop/projec  t/my-webpack/node_modules/loader-runner/lib/LoaderRunner.  js:124:13)
+      at /Users/wanghefeng/Desktop/project/my-webpack/node_  modules/babel-loader/lib/index.js:59:103
+  
+  - index.js:816 Parser._raise
+    [my-webpack]/[@babel]/parser/lib/index.js:816:17
+  
+  - index.js:809 Parser.raiseWithData
+    [my-webpack]/[@babel]/parser/lib/index.js:809:17
+  
+  - index.js:770 Parser.raise
+    [my-webpack]/[@babel]/parser/lib/index.js:770:17
+  
+  - index.js:9893 Parser.unexpected
+    [my-webpack]/[@babel]/parser/lib/index.js:9893:16
+  
+  - index.js:11307 Parser.parseExprAtom
+    [my-webpack]/[@babel]/parser/lib/index.js:11307:20
+  
+  - index.js:10881 Parser.parseExprSubscripts
+    [my-webpack]/[@babel]/parser/lib/index.js:10881:23
+  
+  - index.js:10861 Parser.parseUpdate
+    [my-webpack]/[@babel]/parser/lib/index.js:10861:21
+  
+  - index.js:10839 Parser.parseMaybeUnary
+    [my-webpack]/[@babel]/parser/lib/index.js:10839:23
+  
+  - index.js:10696 Parser.parseExprOps
+    [my-webpack]/[@babel]/parser/lib/index.js:10696:23
+  
+  - index.js:10670 Parser.parseMaybeConditional
+    [my-webpack]/[@babel]/parser/lib/index.js:10670:23
+  
+  - ModuleBuildError: Module build failed (from ../node_mod    ules/babel-loader/lib/index.js):
+  
+  - SyntaxError: /Users/wanghefeng/Desktop/project/my-webpa    ck/webpack-13-js/src/index.html: Unexpected token (1:0)  
+  - > 1 | <    !DOCTYPE html>
+  
+  -     | ^
+  
+  -   2 | <html lang    ="en">
+  
+  -   3 |
+  
+  -   4 | <head>    m
+  
+  - index.js:816 Parser._raise
+    [my-webpack]/[@babel]/parser/lib/index.js:816:17
+  
+  - index.js:809 Parser.raiseWithData
+    [my-webpack]/[@babel]/parser/lib/index.js:809:17
+  
+  - index.js:770 Parser.raise
+    [my-webpack]/[@babel]/parser/lib/index.js:770:17
+  
+  - index.js:9893 Parser.unexpected
+    [my-webpack]/[@babel]/parser/lib/index.js:9893:16
+  
+  - index.js:11307 Parser.parseExprAtom
+    [my-webpack]/[@babel]/parser/lib/index.js:11307:20
+  
+  - index.js:10881 Parser.parseExprSubscripts
+    [my-webpack]/[@babel]/parser/lib/index.js:10881:23
+  
+  - index.js:10861 Parser.parseUpdate
+    [my-webpack]/[@babel]/parser/lib/index.js:10861:21
+  
+  - index.js:10839 Parser.parseMaybeUnary
+    [my-webpack]/[@babel]/parser/lib/index.js:10839:23
+  
+  - index.js:10696 Parser.parseExprOps
+    [my-webpack]/[@babel]/parser/lib/index.js:10696:23
+  
+  - index.js:10670 Parser.parseMaybeConditional
+    [my-webpack]/[@babel]/parser/lib/index.js:10670:23
+  
+  - NormalModule.js:701 processResult
+    [my-webpack]/[webpack]/lib/NormalModule.js:701:19
+  
+  - NormalModule.js:807 
+    [my-webpack]/[webpack]/lib/NormalModule.js:807:5
+  
+  - LoaderRunner.js:399 
+    [my-webpack]/[loader-runner]/lib/LoaderRunner.js:399:11  
+  - LoaderRunner.js:251 
+    [my-webpack]/[loader-runner]/lib/LoaderRunner.js:251:18  
+  - LoaderRunner.js:124 context.callback
+    [my-webpack]/[loader-runner]/lib/LoaderRunner.js:124:13  
+  - index.js:59 
+    [my-webpack]/[babel-loader]/lib/index.js:59:103
+  
+  - child-compiler.js:169 
+    [my-webpack]/[html-webpack-plugin]/lib/child-compiler.j    s:169:18
+  
+  - Compiler.js:548 
+    [my-webpack]/[webpack]/lib/Compiler.js:548:11
+  
+  - Compiler.js:1118 
+    [my-webpack]/[webpack]/lib/Compiler.js:1118:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [my-webpack]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1114 
+    [my-webpack]/[webpack]/lib/Compiler.js:1114:33
+  
+  - Compilation.js:2249 finalCallback
+    [my-webpack]/[webpack]/lib/Compilation.js:2249:11
+  
+  - Compilation.js:2540 
+    [my-webpack]/[webpack]/lib/Compilation.js:2540:11
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [my-webpack]/[tapable]/lib/Hook.js:18:14
+  
+</pre>

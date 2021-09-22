@@ -1,0 +1,15 @@
+body {
+    font-family: "webfont" !important;
+    /* background: red; */
+    /* color: #fff; */
+}
+
+@font-face {
+    font-family: 'webfont';
+    font-display: swap;
+    src: url('./webfont.woff2') format('woff2')
+}
+
+div:nth-of-type(odd) {
+    background: yellow;
+}
